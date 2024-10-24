@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, Arial Black, sans-serif;
+    background-color: #E6F7FF;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.navbar{
+    height: 88px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    margin-top: 66px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: Arial;
+    padding-left: 60px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000A42;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-links a:hover{
+    color: #000A42; /* Change text color on hover */
+    background-color: #DADADA; /* Optional: Change background on hover */
+    border-radius: 5px;
+}
+
+.auth-buttons{
+    display: flex;
+    gap: 10px;
+    padding-left: 420px;
+}
+
+#login{
+    background-color: #f5f5f5;
+    color: #000A42;
+    border: dashed 2px;
+}
+
+#hero-section{
+    padding-top: 120px;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 70px;
+    color: #00147F;
+    margin: 0;
+    font-family: Arial Black;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 50px;
+    color: #00147F;
+    margin: 0;
+    font-family: Arial Black;
+}
+
+.hero-text{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Arial;
+    color: #00147F;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    max-width: 50%; /* Text section takes up 50% of the width */
+    padding-right: 20px;
+}
+
+.button{
+    font-size: 16px;
+    font-family: Arial;
+    border-radius: 100px;
+    /* height: 62px;
+    width: 187px; */
+    background-color: #000A42;
+    color: #f5f5f5;
+    border: none;
+    cursor: pointer;
+    padding: 20px 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white; /* Ensure text stays white */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
